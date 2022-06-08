@@ -1,3 +1,5 @@
+import Flash from "./Flash/Flash"
+
 let uniqueArr = []
 function uniqifyArr(arr){
     if (!Array.isArray(arr)){  
@@ -14,3 +16,5 @@ let uniqueNums = uniqifyArr(myNums)
 console.warn(uniqueNums)
 
 module.exports = uniqifyArr
+
+export { Flash }
